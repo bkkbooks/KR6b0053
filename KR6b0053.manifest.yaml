@@ -1,0 +1,216 @@
+canonical_identifier: bkk:krp/KR6b0053/v1
+canonical_location: https://kanripo.org/bkk/KR6b0053/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 中本起經
+  identifiers:
+    alt_id:
+    - T04n0196
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T04/T04n0196.xml
+    old_id: T04n0196
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 宮-CB
+  label: 宮-CB
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6b0053_000.yaml, hash: 'sha256:e499fefdf260f7cfa745f10733e954f16dbcdf1fecfc41ef27a96a3e00429216'}
+  - {seq: 1, filename: KR6b0053_001.yaml, hash: 'sha256:20dd7174662761859c234980828c854a4576f61d86e33ce44757b3fa2bf6037b'}
+  - {seq: 2, filename: KR6b0053_002.yaml, hash: 'sha256:01fbe003d24fb4afae2eeda5191b77e9d5c5b4e31a9973ff24cf9c5dc1c1bce0'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6b0053_001.markers.yaml, hash: 'sha256:f04da72cdf1904d8c1eb63b043e78226a5e43b6de34a74a5ebb01e9446ca9721'}
+  - {seq: 2, role: markers, filename: assets/KR6b0053_002.markers.yaml, hash: 'sha256:5d8bd8424ba1e2a20c3e8cff78466ce3832339ca3a203557442ec8fd305344b6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6b0053_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 10916
+  label: 中本起經卷上次名四部僧，出長阿含
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6b0053_T_001-mulu-1
+    span:
+    - body
+    - 13
+    - 13
+  label: 1 轉法輪品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6b0053_T_001-mulu-2
+    span:
+    - body
+    - 1888
+    - 1888
+  label: 2 現變品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6b0053_T_001-mulu-3
+    span:
+    - body
+    - 2780
+    - 2780
+  label: 3 化迦葉品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6b0053_T_001-mulu-4
+    span:
+    - body
+    - 5953
+    - 5953
+  label: 4 度瓶沙王品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6b0053_T_001-mulu-5
+    span:
+    - body
+    - 7859
+    - 7859
+  label: 5 舍利弗大目揵連來學品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6b0053_T_001-mulu-6
+    span:
+    - body
+    - 8682
+    - 8682
+  label: 6 還至父國品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6b0053_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 10527
+  label: 中本起經卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6b0053_T_002-mulu-1
+    span:
+    - body
+    - 13
+    - 13
+  label: 7 須達品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6b0053_T_002-mulu-2
+    span:
+    - body
+    - 1952
+    - 1952
+  label: 8 本起該容品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6b0053_T_002-mulu-3
+    span:
+    - body
+    - 3000
+    - 3000
+  label: 9 瞿曇彌來作比丘尼品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6b0053_T_002-mulu-4
+    span:
+    - body
+    - 4880
+    - 4880
+  label: 10 度波斯匿王品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6b0053_T_002-mulu-5
+    span:
+    - body
+    - 6226
+    - 6226
+  label: 11 自愛品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6b0053_T_002-mulu-6
+    span:
+    - body
+    - 7005
+    - 7005
+  label: 12 大迦葉始來品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6b0053_T_002-mulu-7
+    span:
+    - body
+    - 7541
+    - 7541
+  label: 13 度奈女品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6b0053_T_002-mulu-8
+    span:
+    - body
+    - 8402
+    - 8402
+  label: 14 尼揵問疑品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6b0053_T_002-mulu-9
+    span:
+    - body
+    - 9314
+    - 9314
+  label: 13 佛食馬麥品
+  type: mulu
+  level: 1
+hash: sha256:fe5e267343753048618ed07e2daeaf7f0441c897ae74d0ae9307e70bd8dd410e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
